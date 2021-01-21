@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  core-platform:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'core-platform'
+    ports:
+      - "80:80"
